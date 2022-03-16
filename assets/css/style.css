@@ -198,7 +198,7 @@ span{
 }
 .sec3__text1 h2{
     font-size: 20px;
-    font-weight: 
+    font-weight: 600;
 }
 
 .inputtext3__1{
@@ -207,13 +207,14 @@ span{
     font-size: 24px;
     font-weight: 500;
     border-radius: 20px;
+    width: 278px;
+    height: 60px;
 }
 .button3__1{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 90px;
-    margin-left: 80px;
+    text-align: center;
     font-size: 24px;
     font-weight: 500;
     width: 278px;
@@ -238,4 +239,11 @@ span{
 }
 .buttonbox3{
     display: flex;
+}
+.inputtextbox{
+    width: 278px;
+    display: flex;
+}
+.button3__1:first-child{
+    margin-right: 50px;
 }
