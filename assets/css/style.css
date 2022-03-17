@@ -145,6 +145,7 @@ span{
     width: 299px;
 }
 .section2{
+    
     display: flex;
 }
 .textsec2__1{
@@ -177,7 +178,11 @@ span{
     color: white;
     border-radius: 20px;
 }
+
 .section3{
+    background: white;
+    filter: drop-shadow(0px -4px 21px rgba(0, 0, 0, 0.25)) drop-shadow(8px 4px 21px rgba(0, 0, 0, 0.25));
+    border-bottom: 7px solid;
     display: flex;
 }
 .textsec3__1{
@@ -200,42 +205,83 @@ span{
     font-size: 20px;
     font-weight: 600;
 }
-
-.inputtext3__1{
-    background-color: #A9A6A8;
-    color: white;
-    font-size: 24px;
-    font-weight: 500;
-    border-radius: 20px;
+.section3_box3_1{
+    display: flex;
+    margin-bottom: 64px;
+    margin-top: 59px;
+}
+.name{
     width: 278px;
     height: 60px;
-}
-.button3__1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: rgba(169, 166, 168, 1);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
     text-align: center;
-    font-size: 24px;
-    font-weight: 500;
-    width: 278px;
-    height: 91px;
-    background-color: #A9A6A8;
-    color: white;
-    border-radius: 20px;
+    border-style: none;
+    margin-right: 58px;
 }
-.button3__2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 90px;
-    margin-left: 80px;
-    font-size: 24px;
+.name::placeholder{
+    color:white;
+}
+.number{
+    width: 278px;
+    height: 60px;
+    background-color: rgba(169, 166, 168, 1);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat';
     font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    border-style: none;
+}
+.number::placeholder{
+    color:white;
+}
+.section3_box3_2{
+    display: flex;
+}
+.time{
     width: 278px;
     height: 91px;
-    background-color: #A56492;
-    color: white;
+    background-color: rgba(169, 166, 168, 1);
     border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    border-style: none;
+    margin-right: 58px;
+}
+.time::placeholder{
+    color:white;
+}
+.section3_button{
+    width: 278px;
+    height: 91px;
+    background-color: rgba(165, 100, 146, 1);
+    border-radius: 20px;
+    border-style: none;
+    align-items: center;
+    display: flex;
+    transition: 0.3s;
+}
+.section3_button:hover{
+    filter: drop-shadow(0px 2px 22px #b398ff);
+}
+.calltext{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+.callpic{
+    padding-right: 14px;
+    padding-left: 43px;
 }
 .buttonbox3{
     display: flex;
@@ -247,6 +293,12 @@ span{
 .button3__1:first-child{
     margin-right: 50px;
 }
+
+.section4{
+    background: white;
+    filter: drop-shadow(0px -4px 21px rgba(0, 0, 0, 0.25)) drop-shadow(8px 4px 21px rgba(0, 0, 0, 0.25));
+    border-bottom: 7px solid;
+}
 .section4_wrapper{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -256,6 +308,7 @@ span{
 .section4_box{
     display: flex;
     margin: 0 auto;
+    color: white;
     align-items: center;
     justify-content: center;
     width: 1023px;
@@ -294,11 +347,11 @@ span{
     left: 30%;
 }
 .bgMap{
-    margin-left: -60px;
+    margin-left: -20px;
     margin-bottom: 73px;
 }
 .section4_inputs{
-
+    padding: 0 0 50px 123px;
 }
 
 .name1{
@@ -364,11 +417,6 @@ span{
 }
 .section4_button:hover{
     filter: drop-shadow(0px 2px 22px #b398ff);
-}
-.section4{
-    background: white;
-    filter: drop-shadow(0px -4px 21px rgba(0, 0, 0, 0.25)) drop-shadow(8px 4px 21px rgba(0, 0, 0, 0.25));
-    border-bottom: 7px solid;
 }
 /* section5 */
 .section5_wrapper{
@@ -468,4 +516,142 @@ span{
     padding: 240.82px 218px 100px 165px;
     display: flex;
     align-items: center;
+}
+
+.section20{
+    background: white;
+    filter: drop-shadow(0px -4px 21px rgba(0, 0, 0, 0.25)) drop-shadow(8px 4px 21px rgba(0, 0, 0, 0.25));
+    border-bottom: 7px solid;
+}
+.s20_wr{
+    display: flex;
+}
+.sectiontext20-1{
+    padding: 100px 159px 28px 117px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.sectiontext20-2{
+    padding: 0 0 0 117px;
+    font-size: 20px;
+    font-weight: 500;    
+}
+.sectiontext20-3{
+    padding: 28px 0 0 117px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sectiontext20-4{
+    padding: 28px 0 0 117px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.sectiontext20-5{
+    padding: 28px 0 0 117px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.section20_box20_1{
+    padding-left: 116px;
+    display: flex;
+    margin-bottom: 64px;
+    margin-top: 59px;
+}
+.section20_box20_2{
+    padding-left: 116px;
+    display: flex;
+}
+.sec20__1{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 100px 104px 93px 169px;
+}
+
+.section21{
+
+}
+.sectiontext21-1{
+    font-size: 36;
+    font-weight: 700;
+    padding: 100px 0 28px 117px;
+}
+.sectiontext21-2{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0 57px 117px;
+}
+.yourquestion{
+    width: 684px;
+    height: 60px;
+    background-color: rgba(169, 166, 168, 1);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    padding-left: 36px;
+    border-style: none;
+    margin-right: 58px;
+}
+.yourquestion::placeholder{
+    color: white;
+}
+.name21{
+    width: 278px;
+    height: 60px;
+    background-color: rgba(169, 166, 168, 1);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    border-style: none;
+    margin-right: 128px;
+}
+.name21::placeholder{
+    color: white;
+}
+.number21{
+    width: 278px;
+    height: 60px;
+    background-color: rgba(169, 166, 168, 1);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    border-style: none;
+}
+.number21::placeholder{
+    color: white;
+}
+.section21_button{
+    width: 278px;
+    height: 60px;
+    background-color: rgba(165, 100, 146, 1);
+    border-radius: 20px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+    padding: 16px 13px 15px 6px;
+}
+.section21_button:hover{
+    filter: drop-shadow(0px 2px 22px #b398ff);
+}
+.section21_box21_2{
+    padding: 0 0 25px 115px;
+}
+.section21_box21_3{
+    padding: 0 374px 100px 115px;
+}
+.section21_box21_1{
+    padding: 0 0 25px 116px;
+    display: flex;
+}
+.s21_wr{
+    display: flex;
 }
